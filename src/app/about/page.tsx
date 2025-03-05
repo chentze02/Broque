@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <div className="bg-[#FAF3E0] min-h-screen text-[#6B4226] p-6">
+    <div className="bg-[#FAF3E0] min-h-screen text-[#6B4226]">
       <Navbar />
       <h1 className="text-4xl font-bold text-center mt-6">Our Story</h1>
       <p className="mt-4 max-w-2xl mx-auto text-center">

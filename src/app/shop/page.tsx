@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 
 export default function Shop() {
   return (
-    <div className="bg-[#FAF3E0] min-h-screen text-[#6B4226] p-6">
+    <div className="bg-[#FAF3E0] min-h-screen text-[#6B4226]">
       <Navbar />
       <h1 className="text-4xl font-bold text-center mt-6">Shop Our Kaya</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
