@@ -15,6 +15,9 @@ export default function Navbar() {
           <li>
             <Link href="/about" className="hover:text-[#B5651D]">About</Link>
           </li>
+           <li>
+            <Link href="/delivery" className="hover:text-[#B5651D]">Delivery</Link>
+          </li>
 
         </ul>
       </nav>
