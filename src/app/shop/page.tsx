@@ -11,9 +11,11 @@ export default function Shop() {
           <Image src="/classic-kaya.jpg" alt="Classic Kaya" width={300} height={200} className="mx-auto rounded-lg" />
           <h2 className="text-2xl font-semibold mt-2">Classic Kaya</h2>
           <p className="mt-2">Traditional coconut caramel spread.</p>
-          <button className="mt-4 bg-[#B5651D] text-white py-2 px-4 rounded-lg hover:bg-[#8A4F1D]">
-            Add to Cart
-          </button>
+          <a href="https://forms.gle/HfSBwu2yziYHE4tY6" target="_blank" rel="noopener noreferrer">
+            <button className="mt-4 bg-[#B5651D] text-white py-2 px-4 rounded-lg hover:bg-[#8A4F1D]">
+              Order Now
+            </button>
+          </a>
         </div>
       </div>
     </div>
